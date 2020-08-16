@@ -13,11 +13,11 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <Grid HorizontalOptions="FillAndExpand"   VerticalOptions="FillAndExpand" >
-            <Frame HasShadow="True" BackgroundColor="#141414" Padding="10,0" HeightRequest="40" HorizontalOptions="FillAndExpand" VerticalOptions="Center" >
+            <Frame HasShadow="True" BorderColor="#171717" Padding="10,0" BackgroundColor="#1B1B1B" HeightRequest="60" HorizontalOptions="FillAndExpand" VerticalOptions="Center" >
                 <Grid HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand">
                     <ImageButton BackgroundColor="Transparent" Source="menu.png" HeightRequest="20" WidthRequest="16"
                                  HorizontalOptions="Start" VerticalOptions="Center"/>
-                    <Label Text="PRPRTY ZA" HorizontalOptions="CenterAndExpand" FontSize="Title"  VerticalOptions="Center" TextColor="AntiqueWhite"/>
+                    <Label Text="Property ZA" HorizontalOptions="CenterAndExpand" FontSize="Title"  VerticalOptions="Center" TextColor="BlanchedAlmond"/>
                     <ImageButton BackgroundColor="Transparent" Source="search.png" HeightRequest="16" WidthRequest="16"
                                  HorizontalOptions="End" VerticalOptions="Center"/>
                 </Grid>
@@ -25,6 +25,8 @@
         </Grid>
         <ScrollView Grid.Row="1" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
             <StackLayout Spacing="0" HeightRequest="20" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                    <Label Text="Become a Mma Stand le wena motase..." HorizontalOptions="CenterAndExpand" FontSize="16"  VerticalOptions="Start" TextColor="BlanchedAlmond"/>
+                
                 <CarouselView ItemsSource="{Binding Places}" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="0,15">
                     <CarouselView.ItemTemplate>
                         <DataTemplate>

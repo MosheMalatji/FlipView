@@ -69,10 +69,10 @@ namespace FlipView
                     Bathrooms = "2",
                     Garage = "1",
                     Area = "222 m²",
-                    pic1 = "house1.jpg",
-                    pic2 = "house1.jpg",
-                    pic3 = "house1.jpg",
-                    pic4 = "house1.jpg"
+                    pic1 = "pic1.png",
+                    pic2 = "pic2.png",
+                    pic3 = "pic3.png",
+                    pic4 = "pic.png"
                 },
                   new Place
                 {
